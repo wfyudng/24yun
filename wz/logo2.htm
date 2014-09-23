@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="cache-control" content="no-cache,must-revalidate" />
+<meta http-equiv="expires" content="0" />
+<meta name="author" content="深蓝蝴蝶" />
+<meta name="generator" content="editplus" />
+<title>Flash透明菜单(xml文件)</title>
+<script src="swfobject.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="flashcontent">
+	<strong>You need to upgrade your Flash Player.</strong>
+</div>
+<script type="text/javascript">
+	var so = new SWFObject("logo.swf", "logo", "100%", "35", "7", "#ffffff");
+	so.addParam("allowFullScreen", "true");
+	so.addParam("scale", "noscale");
+	so.addParam("menu", "false");
+	so.addParam("flashvars", "xmlType=xml&xmlData=<Menulist><menu enName='Google' chName='Google' src='http://www.google.cn'></menu><menu enName='Yahoo' chName='雅虎' src='http://www.yahoo.com.cn'></menu><menu enName='Souhu' chName='搜狐' src='http://www.souhu.com'></menu><menu enName='Baidu' chName='百度' src='http://www.baidu.com'></menu><menu enName='WangYi' chName='网易' src='http://www.163.com'></menu><menu enName='Mail' chName='126信箱' src='http://www.126.com'></menu></Menulist>");
+	so.write("flashcontent");
+</script>
+</body>
+</html>

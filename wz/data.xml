@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<Menulist>
+	<menu enName='Google' chName='Google' src='http://www.google.cn'></menu>
+	<menu enName='Yahoo' chName='雅虎' src='http://www.yahoo.com.cn'></menu>
+	<menu enName='Souhu' chName='搜狐' src='http://www.souhu.com'></menu>
+	<menu enName='Baidu' chName='百度' src='http://www.baidu.com'></menu>
+	<menu enName='WangYi' chName='网易' src='http://www.163.com'></menu>
+	<menu enName='Mail' chName='126信箱' src='http://www.126.com'></menu>
+</Menulist>
